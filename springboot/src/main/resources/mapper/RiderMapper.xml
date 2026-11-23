@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.RiderMapper">
+
+    <resultMap id="riderViewMap" type="com.entity.view.RiderView">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="phone" property="phone"/>
+        <result column="name" property="name"/>
+        <result column="id_card" property="idCard"/>
+        <result column="avatar" property="avatar"/>
+        <result column="status" property="status"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <select id="selectListView" resultMap="riderViewMap">
+        SELECT * FROM rider
+        ORDER BY id DESC
+    </select>
+
+    <select id="selectView" resultMap="riderViewMap">
+        SELECT * FROM rider
+        <where>
+            <if test="params != null">
+                <if test="params.id != null">
+                    AND id = #{params.id}
+                </if>
+                <if test="params.username != null">
+                    AND username = #{params.username}
+                </if>
+            </if>
+        </where>
+        LIMIT 1
+    </select>
+
+</mapper>

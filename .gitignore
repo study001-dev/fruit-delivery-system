@@ -1,0 +1,38 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Claude Code 本地配置
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Maven
+springboot/target/
+*.class
+
+# Node
+node_modules/
+dist/
+unpackage/
+
+# uni-app H5 构建产物（可通过 npm run build:h5 重新生成）
+uniapp_front/front/h5/
+
+# 运行时上传目录（可能包含个人照片，不入库）
+springboot/upload/
+
+# 测试期上传的私人照片（2026 年手机实拍，未被数据库引用）
+springboot/src/main/resources/static/upload/1776*
+# 测试期上传的头像（已替换为模板头像）
+springboot/src/main/resources/static/upload/1678255305322.jpg
+# 模板遗留孤儿文件（无任何代码/SQL 引用）
+springboot/src/main/resources/static/upload/1577351717989.jpg
+springboot/src/main/resources/static/upload/test
+
+# 备份与日志
+*.bak
+*.log
