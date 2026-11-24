@@ -16,7 +16,7 @@
 
 | 订单列表 | 个人中心 | 在线客服 |
 | ---- | ---- | ---- |
-| <img src="docs/images/user-order-list.png" width="180"> | <img src="docs/images/user-center.png" width="180"> | <img src="docs/images/user-chat.png" width="400"> <img src="docs/images/user-chat-mobile.png" width="180"> |
+| <img src="docs/images/user-order-list.png" width="180"> | <img src="docs/images/user-center.png" width="180"> | <img src="docs/images/user-chat-mobile.png" width="180"> |
 
 ### 骑手端
 
@@ -33,6 +33,10 @@
 | 骑手管理 | 用户管理 |
 | ---- | ---- |
 | <img src="docs/images/admin-rider.png" width="500"> | <img src="docs/images/admin-user.png" width="500"> |
+
+| 在线客服回复 |
+| ---- |
+| <img src="docs/images/admin-chat.png" width="500"> |
 
 ---
 
