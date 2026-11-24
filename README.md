@@ -8,7 +8,31 @@
 
 ## 项目截图
 
-> 占位：运行后可将界面截图放在此处，例如首页、购物车、订单列表、骑手接单页、后台数据看板。
+### 用户端
+
+| 首页 | 商品详情 | 购物车 | 下单结算 |
+| ---- | ---- | ---- | ---- |
+| <img src="docs/images/user-home.png" width="180"> | <img src="docs/images/user-product-detail.png" width="180"> | <img src="docs/images/user-cart.png" width="180"> | <img src="docs/images/user-order-confirm.png" width="180"> |
+
+| 订单列表 | 个人中心 | 在线客服 |
+| ---- | ---- | ---- |
+| <img src="docs/images/user-order-list.png" width="180"> | <img src="docs/images/user-center.png" width="180"> | <img src="docs/images/user-chat.png" width="400"> <img src="docs/images/user-chat-mobile.png" width="180"> |
+
+### 骑手端
+
+| 接单大厅 | 配送订单 |
+| ---- | ---- |
+| <img src="docs/images/rider-order-hall.png" width="180"> | <img src="docs/images/rider-delivery.png" width="180"> |
+
+### 管理后台
+
+| 订单管理 | 商品管理 |
+| ---- | ---- |
+| <img src="docs/images/admin-order.png" width="500"> | <img src="docs/images/admin-product.png" width="500"> |
+
+| 骑手管理 | 用户管理 |
+| ---- | ---- |
+| <img src="docs/images/admin-rider.png" width="500"> | <img src="docs/images/admin-user.png" width="500"> |
 
 ---
 
